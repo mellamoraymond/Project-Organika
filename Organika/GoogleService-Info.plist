@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>823235159176-ktu65vl29132dbhllhhmrqkd3ebfo8lk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.823235159176-ktu65vl29132dbhllhhmrqkd3ebfo8lk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFPKeUaB5xsxnthv_7x7r2E5Ugctsu-NQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>823235159176</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.raymond.Organika</string>
+	<key>PROJECT_ID</key>
+	<string>organika-6df35</string>
+	<key>STORAGE_BUCKET</key>
+	<string>organika-6df35.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:823235159176:ios:4715a9a51cef40ec9a6b3d</string>
+	<key>DATABASE_URL</key>
+	<string>https://organika-6df35.firebaseio.com</string>
+</dict>
+</plist>
