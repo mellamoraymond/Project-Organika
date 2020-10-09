@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7ar-Cc-glF">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initial View Controller-->
+        <scene sceneID="RGs-XK-1lB">
+            <objects>
+                <viewController storyboardIdentifier="initial" id="G0F-l7-xc8" customClass="InitialViewController" customModule="Organika" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fQq-vG-XJG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="202-4V-My1">
+                                <rect key="frame" x="0.0" y="475" width="414" height="387"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35N-p6-c2A" customClass="CustomButton" customModule="Organika" customModuleProvider="target">
+                                        <rect key="frame" x="180" y="197" width="54" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Sign Up">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="6gT-Sp-jHQ" kind="show" id="dZc-6C-FiV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F14-UB-UUC" customClass="CustomButton" customModule="Organika" customModuleProvider="target">
+                                        <rect key="frame" x="186" y="257" width="42" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Log In">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="gSd-1m-cpF" kind="show" id="qVQ-QG-RS8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3b6-fA-dAs"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UPw-gN-fWz"/>
+                    <connections>
+                        <outlet property="containerView" destination="202-4V-My1" id="TKL-z4-JNM"/>
+                        <outlet property="loginButton" destination="F14-UB-UUC" id="Rmg-rg-J8V"/>
+                        <outlet property="signupButton" destination="35N-p6-c2A" id="mNZ-pd-PKx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qqh-qc-EI6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2049.275362318841" y="353.57142857142856"/>
+        </scene>
+        <!--Signup-->
+        <scene sceneID="oE4-i9-qjR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Signup" id="6gT-Sp-jHQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="EF2-b1-c1g"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L10-Wh-fRw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2581.8840579710145" y="257.8125"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="DA5-sD-CRg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="gSd-1m-cpF" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gOn-MM-EfB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F62-x4-Cmy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2576.0869565217395" y="446.65178571428567"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gBA-ad-GEg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7ar-Cc-glF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LxV-YG-cCZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="G0F-l7-xc8" kind="relationship" relationship="rootViewController" id="o6D-o9-ifL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kdj-24-5on" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1139.1304347826087" y="353.57142857142856"/>
+        </scene>
+    </scenes>
+</document>

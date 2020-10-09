@@ -8,4 +8,14 @@
 
 import Foundation
 
-
+struct K {
+    
+    static let appName  = "Organika"
+    static let setupTitle = "Setup Profile"
+    
+    struct Segue {
+        
+        static let loginSegue   = "LoginToHome"
+        static let signupSegue  = "SignupToFarmer"
+    }
+}

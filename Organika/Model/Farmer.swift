@@ -7,9 +7,9 @@
 //
 
 import Foundation
-import RealmSwift
 
-class UserModel: Object {
-    @objc dynamic var name: String = ""
-    @objc dynamic var age: Int = 0
+struct Farmer {
+    
+    var email: String
+    var profile: [String: Any]?
 }

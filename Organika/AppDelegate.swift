@@ -8,30 +8,12 @@
 
 import UIKit
 import Firebase
-import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        print(Realm.Configuration.defaultConfiguration.fileURL)
-        
-        let user = UserModel()
-        user.name = "John"
-        user.age = 15
-        
-        do {
-            let realm = try Realm()
-            try realm.write {
-                realm.add(user)
-            }
-        } catch {
-            print("Error initializing new realm \(error)")
-        }
         
         FirebaseApp.configure()
         

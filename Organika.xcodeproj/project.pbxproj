@@ -7,35 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490D330FC361EFCB6E1E717A /* Pods_Organika.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4793ECD73B8F506E19B63BCC /* Pods_Organika.framework */; };
+		34779CB8A12C39F4BEFE158F /* Pods_Organika.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767C3660176A1350541DF99C /* Pods_Organika.framework */; };
+		D41F9F6C252F519B001DFD37 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F9F6B252F519B001DFD37 /* CustomButton.swift */; };
+		D41F9FC0252F7292001DFD37 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F9FBF252F7292001DFD37 /* WelcomeViewController.swift */; };
+		D41F9FC2252F72B3001DFD37 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41F9FC1252F72B3001DFD37 /* Welcome.storyboard */; };
+		D42AF64E252F7B9A00011B64 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42AF64D252F7B9A00011B64 /* Login.storyboard */; };
+		D42AF650252F7E8000011B64 /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42AF64F252F7E8000011B64 /* Signup.storyboard */; };
 		D436AEEA25178E6800412BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AEE925178E6800412BAB /* AppDelegate.swift */; };
 		D436AEEC25178E6800412BAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AEEB25178E6800412BAB /* SceneDelegate.swift */; };
-		D436AEEE25178E6800412BAB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AEED25178E6800412BAB /* LogInViewController.swift */; };
-		D436AEF125178E6800412BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D436AEEF25178E6800412BAB /* Main.storyboard */; };
+		D436AEEE25178E6800412BAB /* FarmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AEED25178E6800412BAB /* FarmerViewController.swift */; };
+		D436AEF125178E6800412BAB /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D436AEEF25178E6800412BAB /* Initial.storyboard */; };
 		D436AEF325178E7000412BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D436AEF225178E7000412BAB /* Assets.xcassets */; };
 		D436AEF625178E7000412BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D436AEF425178E7000412BAB /* LaunchScreen.storyboard */; };
 		D436AF03251790C500412BAB /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AF02251790C500412BAB /* K.swift */; };
-		D436AF052517914C00412BAB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AF042517914C00412BAB /* RegisterViewController.swift */; };
+		D436AF052517914C00412BAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AF042517914C00412BAB /* LoginViewController.swift */; };
 		D436AF07251798B800412BAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D436AF06251798B800412BAB /* GoogleService-Info.plist */; };
-		D436AF0B2517A2DC00412BAB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AF0A2517A2DC00412BAB /* UserModel.swift */; };
+		D436AF0B2517A2DC00412BAB /* Farmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D436AF0A2517A2DC00412BAB /* Farmer.swift */; };
+		D4A0B66C251902330063B955 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A0B66B251902330063B955 /* SignupViewController.swift */; };
+		D4A0B66E251908420063B955 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A0B66D251908420063B955 /* InitialViewController.swift */; };
+		D4A0B670251929780063B955 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A0B66F251929780063B955 /* MainViewController.swift */; };
+		D4DB576E252622C200A7DC25 /* Buyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB576D252622C200A7DC25 /* Buyer.swift */; };
+		D4DF92D52530A7BE00A13BC0 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF92D42530A7BE00A13BC0 /* Core.swift */; };
+		D4FC600D252B68FB00677FFE /* Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FC600C252B68FB00677FFE /* Autolayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4793ECD73B8F506E19B63BCC /* Pods_Organika.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Organika.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85C5578FE0AE271423E8EAE1 /* Pods-Organika.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Organika.release.xcconfig"; path = "Target Support Files/Pods-Organika/Pods-Organika.release.xcconfig"; sourceTree = "<group>"; };
+		0DCAB114513FF4E13900161C /* Pods-Organika.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Organika.release.xcconfig"; path = "Target Support Files/Pods-Organika/Pods-Organika.release.xcconfig"; sourceTree = "<group>"; };
+		767C3660176A1350541DF99C /* Pods_Organika.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Organika.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41F9F6B252F519B001DFD37 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D41F9FBF252F7292001DFD37 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D41F9FC1252F72B3001DFD37 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		D42AF64D252F7B9A00011B64 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D42AF64F252F7E8000011B64 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
 		D436AEE625178E6800412BAB /* Organika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D436AEE925178E6800412BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D436AEEB25178E6800412BAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D436AEED25178E6800412BAB /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		D436AEF025178E6800412BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D436AEED25178E6800412BAB /* FarmerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerViewController.swift; sourceTree = "<group>"; };
+		D436AEF025178E6800412BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Initial.storyboard; sourceTree = "<group>"; };
 		D436AEF225178E7000412BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D436AEF525178E7000412BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D436AEF725178E7000412BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D436AF02251790C500412BAB /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
-		D436AF042517914C00412BAB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D436AF042517914C00412BAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D436AF06251798B800412BAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D436AF0A2517A2DC00412BAB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		EA0A7CC398B6A545CB3BB9F5 /* Pods-Organika.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Organika.debug.xcconfig"; path = "Target Support Files/Pods-Organika/Pods-Organika.debug.xcconfig"; sourceTree = "<group>"; };
+		D436AF0A2517A2DC00412BAB /* Farmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farmer.swift; sourceTree = "<group>"; };
+		D4A0B66B251902330063B955 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D4A0B66D251908420063B955 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		D4A0B66F251929780063B955 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D4DB576D252622C200A7DC25 /* Buyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buyer.swift; sourceTree = "<group>"; };
+		D4DF92D42530A7BE00A13BC0 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		D4FC600C252B68FB00677FFE /* Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autolayout.swift; sourceTree = "<group>"; };
+		EA7C699FD52378894AF35553 /* Pods-Organika.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Organika.debug.xcconfig"; path = "Target Support Files/Pods-Organika/Pods-Organika.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,26 +65,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490D330FC361EFCB6E1E717A /* Pods_Organika.framework in Frameworks */,
+				34779CB8A12C39F4BEFE158F /* Pods_Organika.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		076DB4EF3BB339E60EDBC23B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4793ECD73B8F506E19B63BCC /* Pods_Organika.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1B0517AFDBB78F320C87240A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA0A7CC398B6A545CB3BB9F5 /* Pods-Organika.debug.xcconfig */,
-				85C5578FE0AE271423E8EAE1 /* Pods-Organika.release.xcconfig */,
+				EA7C699FD52378894AF35553 /* Pods-Organika.debug.xcconfig */,
+				0DCAB114513FF4E13900161C /* Pods-Organika.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -73,7 +87,7 @@
 				D436AEE825178E6800412BAB /* Organika */,
 				D436AEE725178E6800412BAB /* Products */,
 				1B0517AFDBB78F320C87240A /* Pods */,
-				076DB4EF3BB339E60EDBC23B /* Frameworks */,
+				FA6EFEDCAD43C65FBD647B82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,13 +105,13 @@
 				D436AF06251798B800412BAB /* GoogleService-Info.plist */,
 				D436AEE925178E6800412BAB /* AppDelegate.swift */,
 				D436AEEB25178E6800412BAB /* SceneDelegate.swift */,
+				D436AEF225178E7000412BAB /* Assets.xcassets */,
+				D436AEF725178E7000412BAB /* Info.plist */,
 				D436AF002517909100412BAB /* Model */,
 				D436AEFF2517908900412BAB /* View */,
 				D436AEFE2517907600412BAB /* Controller */,
+				D4FC6010252B812800677FFE /* Others */,
 				D436AF01251790AC00412BAB /* Constants */,
-				D436AEF225178E7000412BAB /* Assets.xcassets */,
-				D436AEF425178E7000412BAB /* LaunchScreen.storyboard */,
-				D436AEF725178E7000412BAB /* Info.plist */,
 			);
 			path = Organika;
 			sourceTree = "<group>";
@@ -105,8 +119,12 @@
 		D436AEFE2517907600412BAB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D436AF042517914C00412BAB /* RegisterViewController.swift */,
-				D436AEED25178E6800412BAB /* LogInViewController.swift */,
+				D41F9FBF252F7292001DFD37 /* WelcomeViewController.swift */,
+				D4A0B66D251908420063B955 /* InitialViewController.swift */,
+				D436AF042517914C00412BAB /* LoginViewController.swift */,
+				D4A0B66B251902330063B955 /* SignupViewController.swift */,
+				D436AEED25178E6800412BAB /* FarmerViewController.swift */,
+				D4A0B66F251929780063B955 /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,7 +132,11 @@
 		D436AEFF2517908900412BAB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D436AEEF25178E6800412BAB /* Main.storyboard */,
+				D436AEF425178E7000412BAB /* LaunchScreen.storyboard */,
+				D41F9FC1252F72B3001DFD37 /* Welcome.storyboard */,
+				D436AEEF25178E6800412BAB /* Initial.storyboard */,
+				D42AF64F252F7E8000011B64 /* Signup.storyboard */,
+				D42AF64D252F7B9A00011B64 /* Login.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,7 +144,8 @@
 		D436AF002517909100412BAB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D436AF0A2517A2DC00412BAB /* UserModel.swift */,
+				D436AF0A2517A2DC00412BAB /* Farmer.swift */,
+				D4DB576D252622C200A7DC25 /* Buyer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,6 +158,24 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		D4FC6010252B812800677FFE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC600C252B68FB00677FFE /* Autolayout.swift */,
+				D41F9F6B252F519B001DFD37 /* CustomButton.swift */,
+				D4DF92D42530A7BE00A13BC0 /* Core.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FA6EFEDCAD43C65FBD647B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				767C3660176A1350541DF99C /* Pods_Organika.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,11 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D436AEFA25178E7000412BAB /* Build configuration list for PBXNativeTarget "Organika" */;
 			buildPhases = (
-				946464ADD4C414580D738616 /* [CP] Check Pods Manifest.lock */,
+				08AF15A08CE0BB4B4FD0A924 /* [CP] Check Pods Manifest.lock */,
 				D436AEE225178E6800412BAB /* Sources */,
 				D436AEE325178E6800412BAB /* Frameworks */,
 				D436AEE425178E6800412BAB /* Resources */,
-				98D6A97E8E44CC2C9BF763E1 /* [CP] Embed Pods Frameworks */,
+				B538505C8911FAE59F1E88A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,17 +236,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42AF650252F7E8000011B64 /* Signup.storyboard in Resources */,
 				D436AEF625178E7000412BAB /* LaunchScreen.storyboard in Resources */,
+				D41F9FC2252F72B3001DFD37 /* Welcome.storyboard in Resources */,
+				D42AF64E252F7B9A00011B64 /* Login.storyboard in Resources */,
 				D436AF07251798B800412BAB /* GoogleService-Info.plist in Resources */,
 				D436AEF325178E7000412BAB /* Assets.xcassets in Resources */,
-				D436AEF125178E6800412BAB /* Main.storyboard in Resources */,
+				D436AEF125178E6800412BAB /* Initial.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		946464ADD4C414580D738616 /* [CP] Check Pods Manifest.lock */ = {
+		08AF15A08CE0BB4B4FD0A924 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,7 +271,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		98D6A97E8E44CC2C9BF763E1 /* [CP] Embed Pods Frameworks */ = {
+		B538505C8911FAE59F1E88A8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,24 +295,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D436AEEE25178E6800412BAB /* LogInViewController.swift in Sources */,
-				D436AF0B2517A2DC00412BAB /* UserModel.swift in Sources */,
-				D436AF052517914C00412BAB /* RegisterViewController.swift in Sources */,
+				D41F9FC0252F7292001DFD37 /* WelcomeViewController.swift in Sources */,
+				D436AEEE25178E6800412BAB /* FarmerViewController.swift in Sources */,
+				D4A0B66C251902330063B955 /* SignupViewController.swift in Sources */,
+				D4FC600D252B68FB00677FFE /* Autolayout.swift in Sources */,
+				D436AF0B2517A2DC00412BAB /* Farmer.swift in Sources */,
+				D4DB576E252622C200A7DC25 /* Buyer.swift in Sources */,
+				D436AF052517914C00412BAB /* LoginViewController.swift in Sources */,
 				D436AF03251790C500412BAB /* K.swift in Sources */,
+				D4A0B670251929780063B955 /* MainViewController.swift in Sources */,
 				D436AEEA25178E6800412BAB /* AppDelegate.swift in Sources */,
+				D4DF92D52530A7BE00A13BC0 /* Core.swift in Sources */,
 				D436AEEC25178E6800412BAB /* SceneDelegate.swift in Sources */,
+				D4A0B66E251908420063B955 /* InitialViewController.swift in Sources */,
+				D41F9F6C252F519B001DFD37 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D436AEEF25178E6800412BAB /* Main.storyboard */ = {
+		D436AEEF25178E6800412BAB /* Initial.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D436AEF025178E6800412BAB /* Base */,
 			);
-			name = Main.storyboard;
+			name = Initial.storyboard;
 			sourceTree = "<group>";
 		};
 		D436AEF425178E7000412BAB /* LaunchScreen.storyboard */ = {
@@ -398,7 +450,7 @@
 		};
 		D436AEFB25178E7000412BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA0A7CC398B6A545CB3BB9F5 /* Pods-Organika.debug.xcconfig */;
+			baseConfigurationReference = EA7C699FD52378894AF35553 /* Pods-Organika.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -411,13 +463,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raymond.Organika;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D436AEFC25178E7000412BAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85C5578FE0AE271423E8EAE1 /* Pods-Organika.release.xcconfig */;
+			baseConfigurationReference = 0DCAB114513FF4E13900161C /* Pods-Organika.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raymond.Organika;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
